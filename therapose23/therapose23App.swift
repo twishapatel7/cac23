@@ -11,7 +11,7 @@ import SwiftUI
 struct therapose23App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {ContentView()}.navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
